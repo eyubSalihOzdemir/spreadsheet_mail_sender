@@ -1,9 +1,5 @@
 # macOS files
 .DS_Store
 
-# Ignore personal files
-key.json
-emailer/constants.py
-
-# Ignore all pdfs
+# Ignore all PDF files
 *.pdf
