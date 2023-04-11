@@ -14,7 +14,8 @@ if __name__ == '__main__':
     recipients = get_recipients_from_data(data)
 
     # Send email to recipients
-    send_email(recipients)
+    for recipient in recipients:
+        send_email(recipient)
 
     # Write data to spreadsheet, because 'Mail Sent' field might have changed
     data = get_data_from_recipients(recipients)
