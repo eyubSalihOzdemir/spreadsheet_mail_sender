@@ -1,0 +1,12 @@
+class Constants:
+    body = '{Email body}'
+    subject = '{Email subject}'
+    password = '{Your 16-digit Googele Account App Password}'
+    sender_email = '{Your email adress}'
+    sender_name = '{The name that\'ll be shown on the main mail listing page}'
+    resume_name = '{Attachment name of the resume}'
+    resume_path = '{Path to the file that\'ll be attached}'
+    cover_letter_name = '{Same logic as resume_name}'
+    cover_letter_path = '{Same logic as resume_path}'
+    spreadsheet_id = '{Your spreadsheet id extracted from URL}'
+    service_account_key_path = '{Path to downloaded service account key JSON file}'
