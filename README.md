@@ -11,4 +11,4 @@ some few changes to the code in order to fit your use case like spreadsheet rang
 6. Extract sheet id from your sheets URL and save it locally (edit in emailer/constants.py)
 7. From Google Account/Security settings, create a 16-digit App Password for your email and save it locally (edit in emailer/constants.py)
 
-Get more information on [Google Spreadsheet API](https://developers.google.com/sheets/api/guides/concepts) & [Sending Email using SMPT](https://www.tutorialspoint.com/python/python_sending_email.html).
+Get more information on [Google Spreadsheet API](https://developers.google.com/sheets/api/guides/concepts) & [Sending Email using SMPT](https://www.tutorialspoint.com/python/python_sending_email.htm).
